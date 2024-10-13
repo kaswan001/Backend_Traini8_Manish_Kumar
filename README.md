@@ -323,6 +323,7 @@ You can test the RESTful API using tools like **Postman** or directly from the S
 
 ### Example Requests
 
+- **Create multiple Training Center**: Send a POST request to `/api/v1/training-centers/save-batch` with a JSON body.
 - **Create a Training Center**: Send a POST request to `/api/v1/training-centers/save` with a JSON body.
 - **Get All Training Centers**: Send a GET request to `/api/v1/training-centers/getAll`.
 - **Filter Training Centers**: Send a GET request to `/api/v1/training-centers/filter` with query parameters.
