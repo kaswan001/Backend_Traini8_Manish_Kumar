@@ -1,0 +1,39 @@
+2024-10-14 00:53:53 - c.t.r.Traini8RegistryApplication - Starting Traini8RegistryApplication using Java 17.0.11 with PID 2900 (C:\Users\Manish\Desktop\New folder\Training Center Project\target\classes started by Manish in C:\Users\Manish\Desktop\New folder\Training Center Project)
+2024-10-14 00:53:53 - c.t.r.Traini8RegistryApplication - Running with Spring Boot v3.3.4, Spring v6.1.13
+2024-10-14 00:53:53 - c.t.r.Traini8RegistryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-14 00:53:54 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-14 00:53:54 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-14 00:53:56 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-14 00:53:56 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2024-10-14 00:53:58 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-10-14 00:53:58 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-14 00:53:58 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-14 00:53:58 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-14 00:53:58 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4095 ms
+2024-10-14 00:53:58 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-14 00:53:58 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-14 00:53:58 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-14 00:53:59 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-14 00:53:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-10-14 00:53:59 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56441a20
+2024-10-14 00:53:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-10-14 00:54:01 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-14 00:54:02 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14 00:54:02 - o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-10-14 00:54:03 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-14 00:54:04 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-14 00:54:04 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-10-14 00:54:04 - c.t.r.Traini8RegistryApplication - Started Traini8RegistryApplication in 11.811 seconds (process running for 13.042)
+2024-10-14 00:54:56 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-14 00:54:57 - c.t.r.e.GlobalExceptionHandler - Constraint violation encountered: createTrainingCenters.trainingCenters[1].contactEmail: Invalid email format
+2024-10-14 00:55:14 - c.t.r.c.TrainingCenterController - Received request to save batch of training centers. Count: 10
+2024-10-14 00:55:14 - c.t.r.service.TrainingCenterService - Attempting to save batch of training centers. Count: 10
+2024-10-14 00:55:14 - c.t.r.service.TrainingCenterService - Batch save successful. Saved count: 10
+2024-10-14 00:55:14 - c.t.r.c.TrainingCenterController - Successfully saved batch of training centers. Saved count: 10
+2024-10-14 00:55:46 - c.t.r.c.TrainingCenterController - Received request to get all training centers.
+2024-10-14 00:55:46 - c.t.r.service.TrainingCenterService - Fetching all training centers from repository.
+2024-10-14 00:55:47 - c.t.r.service.TrainingCenterService - Retrieved 74 training centers.
+2024-10-14 00:55:47 - c.t.r.c.TrainingCenterController - Returning 74 training centers.
+2024-10-14 00:56:12 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-14 00:56:12 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-10-14 00:56:12 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
