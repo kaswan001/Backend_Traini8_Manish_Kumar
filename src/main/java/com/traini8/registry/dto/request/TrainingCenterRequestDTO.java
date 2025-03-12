@@ -42,8 +42,9 @@ public class TrainingCenterRequestDTO {
     private String contactEmail;
 
     @NotBlank(message = "Contact phone is mandatory")
-    @Pattern(regexp = "^\\+?[1-9]\\d{0,14}([-.\\s()]?\\d{1,4}){1,4}$\n", message = "Invalid phone number format")
-    @Schema(description = "Contact phone number (mandatory, must be numeric)", example = "+1234567890, +12 345 678 90, +1 (234) 567-8901, +44-20-7946-0958")
+    @Pattern(regexp = "^(?:(?:\\+|0{0,2})91(\\s*[\\-]\\s*)?|[0]?)?[789]\\d{9}$", message = "Invalid phone number format")
+    @Schema(description = "Contact phone number (mandatory, must be numeric)", example = "9883443344, 09883443344, " +
+            "919883443344, 0919883443344, +919883443344, +91-9883443344, 0091 - 9883443344")
     private String contactPhone;
 
     @Valid
